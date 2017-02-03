@@ -10,6 +10,8 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
+    
+    
     //Variables
     var enteringData = 0
     
@@ -17,7 +19,7 @@ class ViewController: UIViewController {
     
     //Outlets
     @IBOutlet weak var whatMultipleTxt: UITextField!
-    @IBOutlet weak var playBtn: UIButton!
+   // @IBOutlet weak var playBtn: UIButton!
     
     @IBAction func playBtnClicked (sender : UIButton) {
     
